@@ -221,12 +221,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 66651518}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -3.6, y: 11.1, z: -120.7}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 17.51507, y: -12.057041, z: -29.821365}
   m_LocalScale: {x: 26.386509, y: 1, z: 4.104605}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 954417646}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &231589104
 GameObject:
@@ -5294,7 +5294,7 @@ GameObject:
   - component: {fileID: 924423769}
   - component: {fileID: 924423770}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: Rei
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5431,6 +5431,41 @@ MonoBehaviour:
   mouseSensitivity: 2
   jumpForce: 5
   gravity: 9.81
+--- !u!1 &954417645
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 954417646}
+  m_Layer: 0
+  m_Name: MUROS_INVISIBLES
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &954417646
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954417645}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -21.11507, y: 23.157042, z: -90.87863}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 66651522}
+  - {fileID: 1530859298}
+  - {fileID: 1419530929}
+  - {fileID: 1936152201}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!850595691 &1243754706
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -5688,11 +5723,11 @@ Transform:
   m_GameObject: {fileID: 1419530925}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -120.5, y: 11.1, z: 2.2}
+  m_LocalPosition: {x: -99.38493, y: -12.057041, z: 93.07863}
   m_LocalScale: {x: 26.386509, y: 1, z: 4.104605}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 954417646}
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
 --- !u!1 &1422948723
 GameObject:
@@ -5902,12 +5937,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1530859294}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: -0.7071068, w: 0}
-  m_LocalPosition: {x: -3.6, y: 11.1, z: 119.7}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: 17.51507, y: -12.057041, z: 210.57863}
   m_LocalScale: {x: 26.386509, y: 1, z: 4.104605}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 954417646}
   m_LocalEulerAnglesHint: {x: 90, y: 180, z: 0}
 --- !u!1 &1772823076
 GameObject:
@@ -6074,11 +6109,11 @@ Transform:
   m_GameObject: {fileID: 1936152197}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 120.9, y: 11.1, z: 2.2}
+  m_LocalPosition: {x: 142.01508, y: -12.057041, z: 93.07863}
   m_LocalScale: {x: 26.386509, y: 1, z: 4.104605}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 954417646}
   m_LocalEulerAnglesHint: {x: 90, y: -90, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -6088,7 +6123,4 @@ SceneRoots:
   - {fileID: 231589105}
   - {fileID: 449324137}
   - {fileID: 924423768}
-  - {fileID: 66651522}
-  - {fileID: 1530859298}
-  - {fileID: 1419530929}
-  - {fileID: 1936152201}
+  - {fileID: 954417646}
